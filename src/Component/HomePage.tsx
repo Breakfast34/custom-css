@@ -30,7 +30,7 @@ export default function HomePage() {
             <div className="text-2-material">
               <div className="icon-material">
                 <img
-                  src=""
+                  src="https://image.xsurface.com/icon/icon_eye_bl.png"
                   className="text-icon-material"
                 />
               </div>

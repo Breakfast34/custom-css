@@ -35,8 +35,6 @@
 
 .btn:hover #icon-svg > path {
   fill: rgb(255, 255, 255);
-  width: 40px;
-  height: 40px;
 }
 
 .box-card {
@@ -73,7 +71,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  
 }
 .box-text {
   margin: 0px 0px 4%;
@@ -116,13 +113,13 @@
 }
 .text-1-material {
   font-size: 0.625rem;
-    color: rgb(108, 108, 112);
-    width: 65%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  color: rgb(108, 108, 112);
+  width: 65%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.text-2-material{
+.text-2-material {
   display: flex;
   width: 35%;
   place-content: center flex-end;
@@ -130,14 +127,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.text-3-material{
+.text-3-material {
   font-size: 0.625rem;
   color: rgb(108, 108, 112);
   margin-top: auto;
   margin-bottom: auto;
-
 }
-.icon-material{
+.icon-material {
   width: 10%;
   padding-top: 10%;
   position: relative;
@@ -145,7 +141,7 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-.text-icon-material{
+.text-icon-material {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -159,7 +155,7 @@
   border-radius: 3px;
   margin: 2.615% auto 0px;
 }
-.img-material{
+.img-material {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -172,7 +168,7 @@
   display: flex;
   flex-wrap: nowrap;
 }
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
