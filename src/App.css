@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-page {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  margin-left: 14.3rem;
+  margin-top: 1rem;
+  position: absolute;
+  top: 0px;
+  border: 1px solid rgb(215, 0, 21);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(215, 0, 21);
+}
+
+#icon-svg {
+  width: 25px;
+  height: 25px;
+  fill: none;
+}
+
+.btn:hover #icon-svg > path {
+  fill: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+}
+
+.box-card {
+  width: 100%;
+  padding: 8.63%;
+  background-color: transparent;
+  box-shadow: rgb(243 241 242) 1px 1px 2px;
+  transition: all 0.2s ease 0s;
+  border-radius: 3px;
+  width: 230px;
+}
+.box-card:hover {
+  box-shadow: rgb(243 241 242) 1px 1px 2px;
+  transform: scale(1.02);
+}
+.box-bg {
+  border-radius: 0px 0px 10px 10px;
+}
+.box-title {
+  margin: 15px 0px 2.61%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.title {
+  max-width: 81.3%;
+  font-size: 14px;
+  color: rgb(243, 241, 242);
+  font-weight: 400;
+  padding: 1.25% 6.25%;
+  letter-spacing: 0.55px;
+  background-color: rgb(54, 54, 56);
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.box-text {
+  margin: 0px 0px 4%;
+}
+.text {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  color: rgb(54, 54, 56);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.price {
+  max-width: 60%;
+  font-size: 1.312rem;
+  color: rgb(54, 54, 56);
+  font-weight: 400;
+  margin-right: 3%;
+  letter-spacing: 1.05px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+}
+.baht {
+  color: rgb(108, 108, 112);
+  font-weight: 300;
+  margin-top: auto;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 12px !important;
+}
+
+.material {
+  margin: 4% 0px 4%;
+  width: 100%;
+}
+.text-1-material {
+  font-size: 0.625rem;
+    color: rgb(108, 108, 112);
+    width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-2-material{
+  display: flex;
+  width: 35%;
+  place-content: center flex-end;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-3-material{
+  font-size: 0.625rem;
+  color: rgb(108, 108, 112);
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.icon-material{
+  width: 10%;
+  padding-top: 10%;
+  position: relative;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.text-icon-material{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  top: 0px;
+  position: absolute;
+}
+.box-img {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  border-radius: 3px;
+  margin: 2.615% auto 0px;
+}
+.img-material{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  border-radius: inherit;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+  text-decoration: none;
 }
