@@ -22,7 +22,7 @@ export default function HomePage() {
             <span className="text">Lofl</span>
           </div>
           <div className="row">
-            <span className="price">1,200</span>
+            <span className="price">1,200.00</span>
             <div className="baht">บาท</div>
           </div>
           <div className="material row">
